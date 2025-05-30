@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استشارات متخصصة - حلول احترافية</title>
+    <!-- Bootstrap 5 RTL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tajawal Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                استشارات<span class="text-primary">نا</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">حولنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">اتصل بنا</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary me-2">احجز استشارة</a>
+            </div>
+        </div>
+    </nav>
+
+<section id="home" class="hero py-5" style="
+    background: radial-gradient(circle at 70% 50%, #2A5C99 0%, #1a365d 100%);
+    position: relative;
+    overflow: hidden;
+">
+    <!-- Optional subtle pattern overlay -->
+    <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+        opacity: 0.3;
+    "></div>
+    
+    <div class="container py-5 position-relative">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-white">
+                <h1 class="display-4 fw-bold mb-4">استشارات متخصصة <span class="text-light">لحلول فعالة</span></h1>
+                <p class="lead text-light mb-4">نقدم استشارات احترافية في مختلف المجالات لمساعدتك على تحقيق أهدافك وتطوير أعمالك</p>
+                <div class="d-flex gap-3">
+                    <a href="#contact" class="btn btn-light btn-lg px-4 text-primary fw-bold">احجز استشارة الآن</a>
+                    <a href="#about" class="btn btn-outline-light btn-lg px-4">اعرف المزيد عنا</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="5024152.png" alt="استشارات احترافية" class="img-fluid rounded" style="transform: perspective(1000px) rotateY(-10deg);">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- قسم الخدمات مع تبويبات -->
+    <section id="services" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="fw-bold mb-3 position-relative d-inline-block">خدماتنا الاستشارية</h2>
+                    <p class="text-muted mb-5">نقدم مجموعة متنوعة من الخدمات الاستشارية لتلبية احتياجاتك</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs justify-content-center" id="servicesTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button" role="tab">استشارات أعمال</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="legal-tab" data-bs-toggle="tab" data-bs-target="#legal" type="button" role="tab">استشارات قانونية</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tech-tab" data-bs-toggle="tab" data-bs-target="#tech" type="button" role="tab">استشارات تقنية</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing" type="button" role="tab">استشارات تسويقية</button>
+                        </li>
+                    </ul>
+                    
+                    <div class="tab-content p-4 bg-white shadow-sm rounded-bottom" id="servicesTabContent">
+                        <div class="tab-pane fade show active" id="business" role="tabpanel">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <img src="3907921.jpg" alt="استشارات أعمال" class="img-fluid rounded">
+                                </div>
+                                <div class="col-lg-6 mt-4 mt-lg-0">
+                                    <h3 class="fw-bold text-primary mb-4">استشارات أعمال متكاملة</h3>
+                                    <p class="mb-4">نقدم حلولاً استشارية متكاملة لمساعدة الشركات على النمو والتوسع. تشمل خدماتنا تحليل السوق، التخطيط الاستراتيجي، تحسين العمليات، وإدارة التغيير.</p>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> تحليل السوق والمنافسين</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> التخطيط الاستراتيجي للأعمال</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> تحسين العمليات وزيادة الكفاءة</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">اطلب استشارة</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="legal" role="tabpanel">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <img src="5024152.jpg" alt="استشارات قانونية" class="img-fluid rounded">
+                                </div>
+                                <div class="col-lg-6 mt-4 mt-lg-0">
+                                    <h3 class="fw-bold text-primary mb-4">استشارات قانونية متخصصة</h3>
+                                    <p class="mb-4">فريقنا من المحامين المتخصصين يوفر لك الاستشارات القانونية في مختلف المجالات لتجنب المشكلات القانونية وحماية مصالحك.</p>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> استشارات عقود وتأسيس شركات</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> قضايا العمل والعمالة</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> نزاعات تجارية وحلول تسوية المنازعات</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">اطلب استشارة</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="tech" role="tabpanel">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <img src="5024152.jpg" alt="استشارات تقنية" class="img-fluid rounded">
+                                </div>
+                                <div class="col-lg-6 mt-4 mt-lg-0">
+                                    <h3 class="fw-bold text-primary mb-4">استشارات تقنية وحلول رقمية</h3>
+                                    <p class="mb-4">نساعدك في تحويل عملك إلى العالم الرقمي من خلال حلول تقنية مخصصة تلبي احتياجاتك وتواكب أحدث التطورات التكنولوجية.</p>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> تحليل وتطوير النظم</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> استشارات أمن المعلومات</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> حلول الذكاء الاصطناعي وتحليل البيانات</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">اطلب استشارة</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="marketing" role="tabpanel">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <img src="https://via.placeholder.com/600x400" alt="استشارات تسويقية" class="img-fluid rounded">
+                                </div>
+                                <div class="col-lg-6 mt-4 mt-lg-0">
+                                    <h3 class="fw-bold text-primary mb-4">استشارات تسويقية وإعلامية</h3>
+                                    <p class="mb-4">نطور استراتيجيات تسويقية فعالة تساعدك على الوصول إلى جمهورك المستهدف وزيادة مبيعاتك ووعي العلامة التجارية.</p>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> تحليل السوق والجمهور المستهدف</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> استراتيجيات التسويق الرقمي</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> إدارة السمعة الرقمية ووسائل التواصل</li>
+                                    </ul>
+                                    <a href="#contact" class="btn btn-primary">اطلب استشارة</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم حولنا -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="20943682.png" alt="حول شركة استشاراتنا" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <h2 class="fw-bold mb-4 position-relative d-inline-block">من نحن</h2>
+                    <p class="mb-4">شركة "استشاراتنا" هي شركة استشارية متخصصة تأسست عام 2010 بهدف تقديم حلول استشارية متكاملة وعالية الجودة للشركات والأفراد.</p>
+                    <p class="mb-5">نتميز بفريق من الخبراء والمستشارين المتخصصين في مختلف المجالات الذين يعملون معاً لتقديم أفضل الحلول المخصصة لاحتياجات عملائنا.</p>
+                    
+                    <div class="row text-center mb-5">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="counter">
+                                <span class="display-4 fw-bold text-primary" data-count="12">0</span>
+                                <p class="text-muted">سنة خبرة</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="counter">
+                                <span class="display-4 fw-bold text-primary" data-count="350">0</span>
+                                <p class="text-muted">عميل راضي</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter">
+                                <span class="display-4 fw-bold text-primary" data-count="40">0</span>
+                                <p class="text-muted">خبير استشاري</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary btn-lg">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold mb-3 position-relative d-inline-block">اتصل بنا</h2>
+                    <p class="text-muted">نحن هنا لمساعدتك. تواصل معنا اليوم واحصل على استشارة مجانية</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contact-info">
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-primary fs-4 mt-1"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="mb-2">العنوان</h4>
+                                <p class="text-muted mb-0">شارع الاستشارات، الرياض، المملكة العربية السعودية</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-phone text-primary fs-4 mt-1"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="mb-2">الهاتف</h4>
+                                <p class="text-muted mb-0">+966 12 345 6789</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-envelope text-primary fs-4 mt-1"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="mb-2">البريد الإلكتروني</h4>
+                                <p class="text-muted mb-0">info@istisharatna.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-clock text-primary fs-4 mt-1"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="mb-2">أوقات العمل</h4>
+                                <p class="text-muted mb-0">الأحد - الخميس: 8 صباحاً - 5 مساءً</p>
+                                <p class="text-muted mb-0">الجمعة والسبت: إجازة</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-circle"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <form id="consultationForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">الاسم الكامل</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">رقم الهاتف</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="service" class="form-label">نوع الاستشارة</label>
+                                    <select class="form-select" id="service" required>
+                                        <option value="">اختر نوع الاستشارة</option>
+                                        <option value="business">استشارات أعمال</option>
+                                        <option value="legal">استشارات قانونية</option>
+                                        <option value="tech">استشارات تقنية</option>
+                                        <option value="marketing">استشارات تسويقية</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">أخبرنا عن احتياجاتك</label>
+                                    <textarea class="form-control" id="message" rows="4"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">إرسال الطلب</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h3 class="h5 mb-3">استشاراتنا</h3>
+                    <p class="text-muted">شركة استشارية متخصصة تقدم حلولاً احترافية في مختلف المجالات لمساعدة العملاء على تحقيق أهدافهم.</p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h3 class="h5 mb-3">روابط سريعة</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-muted">الرئيسية</a></li>
+                        <li class="mb-2"><a href="#services" class="text-muted">الخدمات</a></li>
+                        <li class="mb-2"><a href="#about" class="text-muted">حولنا</a></li>
+                        <li><a href="#contact" class="text-muted">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h3 class="h5 mb-3">الخدمات</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#services" class="text-muted" data-bs-toggle="tab" data-bs-target="#business">استشارات أعمال</a></li>
+                        <li class="mb-2"><a href="#services" class="text-muted" data-bs-toggle="tab" data-bs-target="#legal">استشارات قانونية</a></li>
+                        <li class="mb-2"><a href="#services" class="text-muted" data-bs-toggle="tab" data-bs-target="#tech">استشارات تقنية</a></li>
+                        <li><a href="#services" class="text-muted" data-bs-toggle="tab" data-bs-target="#marketing">استشارات تسويقية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="h5 mb-3">النشرة البريدية</h3>
+                    <p class="text-muted mb-3">اشترك في نشرتنا البريدية لتصلك آخر الأخبار والعروض.</p>
+                    <form class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="بريدك الإلكتروني">
+                        <button class="btn btn-primary" type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-secondary">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2023 استشاراتنا. جميع الحقوق محفوظة.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-muted me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-muted me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-muted me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-muted"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
